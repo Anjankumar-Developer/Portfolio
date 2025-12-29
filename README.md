@@ -1,20 +1,84 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sai Anjan Kumar - Portfolio
 
-# Run and deploy your AI Studio app
+A personal developer portfolio built with React, Vite and Tailwind CSS showcasing projects, skills and professional experience.
 
-This contains everything you need to run your app locally.
+## Demo
 
-View your app in AI Studio: https://ai.studio/apps/drive/1gHpGFBEZOXyMMOtC3vUh07bf16gY2vhd
+- Live demo: (if deployed, add your URL here)
 
-## Run Locally
+## Highlights
 
-**Prerequisites:**  Node.js
+- Clean, modern resume-style portfolio
+- Sections: Home, About, Experience, Projects, Contact
+- Smooth animations with Framer Motion
+- Responsive and accessible layout using Tailwind CSS
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- React
+- Vite
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- lucide-react (icons)
+
+## Getting Started (Local)
+
+Prerequisites: Node.js 16+ and npm or pnpm
+
+1. Install dependencies
+
+```bash
+npm install
+# or
+pnpm install
+```
+
+2. Run the development server
+
+```bash
+npm run dev
+# or
+pnpm dev
+```
+
+Open http://localhost:5173 (or the URL shown by Vite) to view the site.
+
+## Build
+
+```bash
+npm run build
+# or
+pnpm build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+# or
+pnpm preview
+```
+
+## Deployment
+
+This app works well on static hosts that support Vite builds. Common options:
+
+- Vercel: connect the repository and set the build command to `npm run build` and output directory to `dist`.
+- Netlify: same build command and publish directory (`dist`).
+
+## Contributing
+
+1. Fork the repo
+2. Create a feature branch
+3. Open a pull request
+
+Please keep changes focused and add notes to the PR describing your changes.
+
+## License
+
+This project is available under the MIT License — see the LICENSE file for details.
+
+## Contact
+
+If you'd like to get in touch, open an issue or email: contact@example.com
