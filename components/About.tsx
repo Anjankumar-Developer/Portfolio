@@ -19,7 +19,7 @@ const About: React.FC = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <span className="text-[#D4AF37] text-sm uppercase tracking-widest mb-4 block">Our Philosophy</span>
+          <span className="text-[#D4AF37] text-sm uppercase tracking-widest mb-4 block"> About</span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10 tracking-tight text-white leading-tight">
             Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D4AF37] to-[#B8860B]">Intelligence</span> in Digital Spaces.
           </h2>
