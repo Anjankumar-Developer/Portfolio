@@ -127,7 +127,7 @@ const Hero: React.FC = () => {
             </motion.div>
           </a>
           <a 
-            href="/resume.pdf" 
+            href="https://www.dropbox.com/scl/fi/gz499ambybfaoelt7ty5b/Resume_Anjan.pdf?rlkey=efni76jwgzdg1qvft9ygc9yg3&st=hfixnp61&dl=0" 
             target="_blank" 
             rel="noopener noreferrer"
             className="px-8 py-4 glass border border-white/10 text-white rounded-full font-semibold hover:bg-white/5 transition-all flex items-center gap-2"
