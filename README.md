@@ -4,7 +4,7 @@ A personal developer portfolio built with React, Vite and Tailwind CSS showcasin
 
 ## Demo
 
-- Live demo: (if deployed, add your URL here)
+[- Live demo:](https://portfolio-anjankumar.vercel.app)
 
 ## Highlights
 
