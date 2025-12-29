@@ -24,6 +24,7 @@ export const THEME_COLORS = {
 export const NAV_LINKS = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
+  { name: 'Experience', href: '#experience' },
   { name: 'Projects', href: '#projects' },
   { name: 'Contact', href: '#contact' },
 ];
@@ -31,52 +32,53 @@ export const NAV_LINKS = [
 export const PROJECTS: Project[] = [
   {
     id: '1',
-    title: 'CodeMind — AI Code Generation Assistant',
-    description: 'CodeMind is a specialized AI-powered code generation assistant that deeply understands developer intent, context, and project structure to deliver high-accuracy Python and JavaScript code.',
-    tags: ['Python', 'HuggingFace Transformers', 'PyTorch', 'QLoRA', 'PEFT', 'Colab / GPU'],
-    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
-    category: 'AI',
-    github: 'https://github.com',
+    title: 'Finlytics — AI Financial Analytics',
+    description: 'Finlytics is an AI-powered financial analytics platform that provides real-time insights and predictive analytics for personal and business finance management. It leverages advanced machine learning algorithms to analyze spending patterns, forecast cash flows, and optimize investment strategies.',
+    tags: ['React', 'Next.js', 'Python', 'LLM APIs', 'Prompt Engineering', 'Tailwind CSS', 'Data Visualization','SQL/NoSQL', 'Docker'],
+    image: 'https://img.freepik.com/premium-photo/inclusive-digital-marketing-campaign-metrics-dashboard_1029473-773316.jpg?semt=ais_hybrid&w=740&q=80',
+    category: 'Web',
+    github: 'https://github.com/Anjankumar-Developer/Google-Agentic-AI',
     live: 'https://demo.com'
   },
   {
     id: '2',
-    title: 'Nexus AI Engine',
-    description: 'A cutting-edge large language model orchestration platform capable of multi-agent collaboration and real-time reasoning across complex datasets.',
-    tags: ['Next.js', 'FastAPI', 'OpenAI', 'LangChain', 'Pinecone'],
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1932&auto=format&fit=crop',
-    category: 'AI',
-    github: 'https://github.com',
+    title: 'Radar-CME — Space Weather Prediction System',
+    description: 'Radar-CME is a machine learning system that predicts coronal mass ejections (CMEs) using real-time and historical space weather data from NASA and NOAA sources. The system uses deep learning models to analyze the data and make predictions on when CMEs are likely to occur.',
+    tags: ['Python', 'Scikit-learn', 'PyTorch', 'Numpy', 'Pandas', 'Matplotlib','NOAA datasets', 'NASA datasets'],
+    image: 'https://img.freepik.com/premium-photo/surface-sun-with-prominences-solar-radiation-generative-ai_77190-13548.jpg',
+    category: 'Web',
+    github: 'https://github.com/Ravitheja1289-dot/RADAR-CME',
     live: 'https://demo.com'
   },
   {
     id: '3',
-    title: 'Zenith OS — Virtual Collaboration',
-    description: 'A cloud-based virtual operating system prototype built for high-performance creative collaboration and real-time remote infrastructure management.',
-    tags: ['TypeScript', 'Node.js', 'Docker', 'AWS', 'WebRTC'],
-    image: 'https://images.unsplash.com/photo-1618401471353-b98aadebc25a?q=80&w=2070&auto=format&fit=crop',
-    category: 'Web',
-    github: 'https://github.com',
+    title: 'QuantumFin — AI Finance Assistant',
+    description: 'QuantumFin is a full-stack AI-powered financial assistant that tracks expenses, manages budgets, and provides conversational insights with automated categorization. It leverages advanced NLP models to deliver personalized financial advice and real-time analytics.',
+    tags: ['React', 'Next.js', 'Python', 'LLM APIs', 'Prompt Engineering', 'Tailwind CSS','SQL/NoSQL'],
+    image: 'https://cdna.artstation.com/p/assets/images/images/080/142/728/smaller_square/alamin-hasan-m-12.jpg?1726775153',
+    category: 'AI',
+    github: 'https://github.com/Ravitheja1289-dot/QuantumFin',
     live: 'https://demo.com'
   },
   {
     id: '4',
-    title: 'Etherium Flow Dashboard',
-    description: 'A decentralized finance dashboard with real-time liquidity tracking and predictive analytics for yield farming strategies.',
-    tags: ['React Native', 'Solidity', 'GraphQL', 'Tailwind', 'Ethers.js'],
-    image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2070&auto=format&fit=crop',
-    category: 'Mobile',
-    github: 'https://github.com'
+    title: 'RetainRover — AI-Powered Customer Retention Platform',
+    description: 'RetainRover predicts user churn and enables proactive retention strategies by analyzing user behavior, engagement patterns, and historical data to identify at-risk customers. It provides actionable insights to optimize customer retention and reduce churn rates.',
+    tags: ['Python', 'Scikit-learn', 'PyTorch', 'Numpy', 'Pandas', 'Matplotlib', 'Seaborn', 'FastAPI','Docker'],
+    image: 'https://danlok.com/wp-content/uploads/2025/04/362d58de-5bba-445d-a43b-bda503119a80.jpeg',
+    category: 'AI',
+    github: 'https://github.com/Ravitheja1289-dot/RetainRover',
+    live: 'https://retainrover.streamlit.app'
   },
   {
     id: '5',
-    title: 'Solaris UI — Design System',
-    description: 'A high-performance component library built with WebGL acceleration for ultra-smooth 60fps animations in enterprise data applications.',
-    tags: ['Three.js', 'React', 'Framer Motion', 'TypeScript', 'GLSL'],
-    image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop',
-    category: 'Web',
-    github: 'https://github.com',
-    live: 'https://demo.com'
+    title: 'Cyber Shield — Security & Fraud Detection',
+    description: 'Cyber Shield is a machine-learning-driven platform that uses NLP to detect fraudulent transactions and phishing emails. It analyzes textual data and transaction patterns to identify potential threats and anomalies, enhancing cybersecurity measures for businesses.',
+    tags: ['Python', 'NLP', 'Machine Learning', 'Threat Detection', 'Anomaly Detection', 'Scikit-learn', 'TensorFlow', 'PyTorch'],
+    image: 'https://www.informaticando.eu/wp-content/uploads/2024/06/A-high-tech-graphic-design-illustrating-the-concept-of-AI-in-cybersecurity-678x381.webp',
+    category: 'AI',
+    github: 'https://github.com/Durgaprasad044/CyberShield',
+    live: 'https://cybershield-2.onrender.com'
   },
   {
     id: '6',
@@ -134,10 +136,8 @@ export const SKILLS: Skill[] = [
   { name: 'Expo', category: 'Mobile Development' },
   { name: 'Kotlin', category: 'Mobile Development' },
   { name: 'Swift', category: 'Mobile Development' },
-  { name: 'Jetpack Compose', category: 'Mobile Development' },
   { name: 'SwiftUI', category: 'Mobile Development' },
   { name: 'Android Studio', category: 'Mobile Development' },
-  { name: 'Xcode', category: 'Mobile Development' },
   { name: 'Firebase (FCM)', category: 'Mobile Development' },
   { name: 'SQLite / Room', category: 'Mobile Development' },
 
@@ -198,8 +198,7 @@ export const EXPERIENCES: Experience[] = [
 ];
 
 export const SOCIALS = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
-  { name: 'Linkedin', icon: Linkedin, href: 'https://linkedin.com' },
-  { name: 'Mail', icon: Mail, href: 'mailto:contact@example.com' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com/Anjankumar-Developer' },
+  { name: 'Linkedin', icon: Linkedin, href: 'https://linkedin.com/in/anjan-kumar45/' },
+  { name: 'Mail', icon: Mail, href: 'mailto:tsanjankumar@gmail.com' },
 ];
