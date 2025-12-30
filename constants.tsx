@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     image: 'https://img.freepik.com/premium-photo/surface-sun-with-prominences-solar-radiation-generative-ai_77190-13548.jpg',
     category: 'Web',
     github: 'https://github.com/Ravitheja1289-dot/RADAR-CME',
-    live: 'https://demo.com'
+    live: 'https://radar-cme.vercel.app'
   },
   {
     id: '3',
